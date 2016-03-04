@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=big5">
+<title>Admin Page</title>
+<style type="text/css">
+	#content {
+		margin-top:50px;
+		margin-left:50px;
+	}
+	
+	#body {
+		margin-top:50px;
+		margin-left:50px;
+		width:100%;
+		
+	}
+	
+	a:link  {
+		color: blue;
+	}
+	a:visited {
+		color: blue;
+	}
+	.style1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	
+	}
+	.style3 {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-decoration:none;
+	margin-top:10px;
+	margin-left:10px;
+	width:30%;
+	
+	}
+.style4 {color: #0000FF}
+</style>
+</head>
+
+<body style="content">
+ <table width="615" height="220" border="0">
+  <tr>
+    <td width="609" height="46"><div align="center" class="style1">
+      <div align="center">
+        <p class="style4">ADMIN FUNCTIONS
+</p>
+        </div>
+    </div></td>
+  </tr>
+  <tr>
+    <td height="168"><form name="form1" method="post" action="ViewRecord.php">
+      
+        <div align="center">
+          <p>
+            <input name="Submit" type="submit" class="style3" value="4. View Records">
+            <input name="button" type="button" class="style3" id="button" onClick="window.location='generate_class.php'" value="3. Generate Class">
+</p>
+          <p>
+            <input name="button" type="button" class="style3" id="button" onClick="window.location='csv_importer.php'" value="1. Import Rank.csv">
+            <input name="button" type="button" class="style3" id="button" onClick="window.location='update_rank.php'" value="2. Update Rank"> 
+          </p>
+          <p>
+            <input name="button" type="button" class="style3" id="button" onClick="window.location='adminlogout.php'" value="Logout">
+</p>
+        </div>
+    </form></td>
+  </tr>
+</table>
+</body>
+</html>
